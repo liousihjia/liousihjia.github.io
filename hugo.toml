@@ -1,0 +1,25 @@
+baseURL = 'https://liousihjia.github.io/'
+languageCode = 'zh-tw'
+title = 'Liu Jiajia | 系統架構與 AI 研發'
+theme = 'PaperMod'
+
+[params]
+  env = 'production'
+  description = '搜尋引擎研發襄理 | 專注於高可用系統架構、Vespa 搜尋引擎與機器學習'
+  author = 'Liu Jiajia'
+
+  # 開啟個人首頁模式
+  [params.profileMode]
+    enabled = true
+    title = "Hello, I'm Liu Jiajia 👋"
+    subtitle = "搜尋引擎研發襄理 / 系統架構師\n\n專注於 Python、Java 後端開發與 Vespa 向量搜尋引擎。具備建置伺服器高可用性 (HA) 互備架構經驗，並持有 AWS Certified Machine Learning – Specialty 認證。目前致力於推動 AI 驅動開發 (AIDD)，成功提升團隊 30%~50% 軟體交付效率。"
+    
+    # 之後可以換成您的大頭貼圖片路徑 (例如放到 static/avatar.png)
+    imageUrl = "" 
+    imageWidth = 120
+    imageHeight = 120
+
+  # 社交連結設定
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/liousihjia"
