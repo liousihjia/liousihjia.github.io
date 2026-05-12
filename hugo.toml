@@ -3,6 +3,11 @@ languageCode = 'zh-tw'
 title = 'Liu Jiajia | 系統架構與 AI 研發'
 theme = 'PaperMod'
 
+[[menu.main]]
+name = "文章"
+url = "/posts/"
+weight = 10
+
 [params]
   env = 'production'
   description = '搜尋引擎研發襄理 | 專注於高可用系統架構、Vespa 搜尋引擎與機器學習'
@@ -18,6 +23,11 @@ theme = 'PaperMod'
     imageUrl = "" 
     imageWidth = 120
     imageHeight = 120
+
+    # profile 模式下首頁不列出文章，用按鈕連到文章列表
+    [[params.profileMode.buttons]]
+    name = "技術文章"
+    url = "/posts/"
 
   # 社交連結設定
   [[params.socialIcons]]
