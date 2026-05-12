@@ -1,6 +1,6 @@
 baseURL = 'https://liousihjia.github.io/'
 languageCode = 'zh-tw'
-title = 'Liu Jiajia | 系統架構與 AI 研發'
+title = 'JiaJia | 個人實驗室'
 theme = 'PaperMod'
 
 [[menu.main]]
@@ -10,14 +10,14 @@ weight = 10
 
 [params]
   env = 'production'
-  description = '搜尋引擎研發襄理 | 專注於高可用系統架構、Vespa 搜尋引擎與機器學習'
-  author = 'Liu Jiajia'
+  description = '個人實驗筆記｜後端、搜尋與機器學習相關'
+  author = 'JiaJia'
 
   # 開啟個人首頁模式
   [params.profileMode]
     enabled = true
-    title = "Hello, I'm Liu Jiajia 👋"
-    subtitle = "搜尋引擎研發襄理 / 系統架構師\n\n專注於 Python、Java 後端開發與 Vespa 向量搜尋引擎。具備建置伺服器高可用性 (HA) 互備架構經驗，並持有 AWS Certified Machine Learning – Specialty 認證。目前致力於推動 AI 驅動開發 (AIDD)，成功提升團隊 30%~50% 軟體交付效率。"
+    title = "嗨 👋 我是 JiaJia"
+    subtitle = "在這裡隨手整理後端、搜尋與機器學習相關的實作與心得。\n\n內容偏個人實驗與筆記，不代表任何雇主或機構立場。"
     
     # 之後可以換成您的大頭貼圖片路徑 (例如放到 static/avatar.png)
     imageUrl = "" 
