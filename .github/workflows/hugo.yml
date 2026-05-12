@@ -31,7 +31,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.128.0
+      # PaperMod theme.toml requires min Hugo 0.146+
+      HUGO_VERSION: 0.161.1
     steps:
       - name: Install Hugo CLI
         run: |
