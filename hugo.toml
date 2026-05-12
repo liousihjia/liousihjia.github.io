@@ -17,7 +17,7 @@ weight = 10
   [params.profileMode]
     enabled = true
     title = "嗨 👋 我是 JiaJia"
-    subtitle = "在這裡隨手整理後端、搜尋與機器學習相關的實作與心得。\n\n內容偏個人實驗與筆記，不代表任何雇主或機構立場。"
+    subtitle = "在這裡隨手記下有趣的事情，不管是技術相關還是任意的實作與心得。"
     
     # 之後可以換成您的大頭貼圖片路徑 (例如放到 static/avatar.png)
     imageUrl = "" 
