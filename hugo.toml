@@ -8,6 +8,11 @@ name = "文章"
 url = "/posts/"
 weight = 10
 
+[[menu.main]]
+name = "About me"
+url = "/about/"
+weight = 20
+
 [params]
   env = 'production'
   description = '個人實驗筆記｜後端、搜尋與機器學習相關'
