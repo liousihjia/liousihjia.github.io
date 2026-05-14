@@ -1,0 +1,8 @@
+# Hugo build output (GitHub Actions rebuilds on deploy)
+/public/
+
+# Hugo cache / processed resources
+/resources/_gen/
+
+# Hugo build lock (optional local artifact)
+.hugo_build.lock
